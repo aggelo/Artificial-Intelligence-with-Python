@@ -2,8 +2,6 @@
 
 A flower image classifier built with PyTorch
 
-Files Submitted
-The submission includes all required files. (Model checkpoints not required.)
 
 Part 1 - Development Notebook
 All the necessary packages and modules are imported in the first cell of the notebook
@@ -35,6 +33,8 @@ The process_image function successfully converts a PIL image into an object that
 The predict function successfully takes the path to an image and a checkpoint, then returns the top K most probably classes for that image
 
 A matplotlib figure is created displaying an image and its associated top 5 most probable classes with actual flower names
+
+
 
 Part 2 - Command Line Application
 train.py successfully trains a new network on a dataset of images and saves the model to a checkpoint
